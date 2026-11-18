@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mercury",
+    "name": "Mercury",
+    "diameter_km": 4879.4,
+    "distance_million_km": 57.909,
+    "orbital_period_days": 87.969,
+    "fact": "Mercury is the smallest planet and completes an orbit in just 88 Earth days.",
+    "color": "#ADA99E",
+    "radius_ratio_earth": 0.382938314
+  },
+  {
+    "id": "venus",
+    "name": "Venus",
+    "diameter_km": 12103.6,
+    "distance_million_km": 108.21,
+    "orbital_period_days": 224.701,
+    "fact": "A thick atmosphere traps heat, making Venus the hottest planet.",
+    "color": "#EAC88B",
+    "radius_ratio_earth": 0.949897975
+  },
+  {
+    "id": "earth",
+    "name": "Earth",
+    "diameter_km": 12742.0,
+    "distance_million_km": 149.598,
+    "orbital_period_days": 365.256,
+    "fact": "Oceans cover about 71 percent of our home planet.",
+    "color": "#4BA4DB",
+    "radius_ratio_earth": 1.0
+  },
+  {
+    "id": "mars",
+    "name": "Mars",
+    "diameter_km": 6779.0,
+    "distance_million_km": 227.956,
+    "orbital_period_days": 686.98,
+    "fact": "Mars is home to Olympus Mons, the largest volcano in the solar system.",
+    "color": "#D47753",
+    "radius_ratio_earth": 0.532020091
+  },
+  {
+    "id": "jupiter",
+    "name": "Jupiter",
+    "diameter_km": 139822.0,
+    "distance_million_km": 778.479,
+    "orbital_period_days": 4332.589,
+    "fact": "The Great Red Spot is a vast storm that has lasted for centuries.",
+    "color": "#CEAE8B",
+    "radius_ratio_earth": 10.973316591
+  },
+  {
+    "id": "saturn",
+    "name": "Saturn",
+    "diameter_km": 116464.0,
+    "distance_million_km": 1432.041,
+    "orbital_period_days": 10755.699,
+    "fact": "Saturn's bright rings contain countless pieces of ice and rock.",
+    "color": "#DCC99D",
+    "radius_ratio_earth": 9.140166379
+  },
+  {
+    "id": "uranus",
+    "name": "Uranus",
+    "diameter_km": 50724.0,
+    "distance_million_km": 2867.043,
+    "orbital_period_days": 30685.4,
+    "fact": "Uranus rotates almost on its side, giving it extreme seasons.",
+    "color": "#9FD3D6",
+    "radius_ratio_earth": 3.98085073
+  },
+  {
+    "id": "neptune",
+    "name": "Neptune",
+    "diameter_km": 49244.0,
+    "distance_million_km": 4514.953,
+    "orbital_period_days": 60189.018,
+    "fact": "Neptune has fierce winds that can exceed 2,000 kilometers per hour.",
+    "color": "#71AFCB",
+    "radius_ratio_earth": 3.864699419
+  }
+]

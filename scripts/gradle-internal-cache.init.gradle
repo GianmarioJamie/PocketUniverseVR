@@ -1,0 +1,8 @@
+// User-approved temporary cache: avoid AppleDouble files on the exFAT project volume.
+// Sources and the final exported APK remain on the external SSD.
+gradle.beforeProject { project ->
+    def cacheRoot = System.getenv('POCKET_BUILD_CACHE')
+    if (cacheRoot != null && project.rootDir.absolutePath.contains('Meta_Hackaton_space')) {
+        project.layout.buildDirectory.set(new File(cacheRoot, 'intermediates/' + project.path.replace(':', '_')))
+    }
+}

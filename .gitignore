@@ -1,0 +1,25 @@
+.godot/
+.cache/
+tools/
+downloads/
+logs/
+builds/*
+!builds/.gdignore
+android/build/
+*.keystore
+*.jks
+export_credentials.cfg
+signing/
+.DS_Store
+._*
+
+# Local credentials and platform metadata
+.env
+.env.*
+*.p12
+*.pfx
+*.pem
+*.key
+*.apk
+*.aab
+android/.build_version

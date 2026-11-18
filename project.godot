@@ -1,0 +1,48 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Pocket Universe"
+run/main_scene="res://scenes/boot.tscn"
+boot_splash/image="res://assets/loading.png"
+boot_splash/bg_color=Color(0.027, 0.071, 0.129, 1)
+boot_splash/use_filter=true
+config/features=PackedStringArray("4.6", "Mobile")
+config/icon="res://assets/icon.svg"
+config/use_custom_user_dir.macos=true
+config/custom_user_dir_name.macos="Pocket Universe"
+
+[display]
+
+window/size/viewport_width=1440
+window/size/viewport_height=900
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+renderer/rendering_method="mobile"
+renderer/rendering_method.macos="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0.008, 0.015, 0.035, 1)
+
+[xr]
+
+openxr/reference_space=1
+openxr/enabled=false
+openxr/enabled.android=true
+openxr/default_action_map="res://assets/openxr_action_map.tres"
+openxr/extensions/hand_tracking=true
+openxr/extensions/eye_gaze_interaction=false
+openxr/foveation_eye_tracked=false
+openxr/extensions/meta/hand_tracking_aim=true
+openxr/extensions/hand_interaction_profile=true
+shaders/enabled=true
+openxr/extensions/hand_tracking/hand_tracking_unobstructed_data_source=true
