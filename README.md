@@ -4,6 +4,12 @@ A seated, hands-first miniature solar system for Meta Quest, built with Godot 4 
 
 ![Pocket Universe VR](assets/loading.png)
 
+## Download for Meta Quest
+
+[Download the release APK — v0.6.7](https://github.com/GianmarioJamie/PocketUniverseVR/releases/download/v0.6.7/pocket-universe-release-v0.6.7.apk)
+
+The [GitHub Release](https://github.com/GianmarioJamie/PocketUniverseVR/releases/tag/v0.6.7) also includes the SHA-256 checksum. Install the APK using SideQuest or ADB. If a debug build is already installed, uninstall it first because its signing certificate differs; uninstalling removes local app data.
+
 ## Explore with your hands
 
 - Select the Sun or any of the eight planets to see a preview, astronomical facts and a short description.
